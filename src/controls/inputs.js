@@ -1,4 +1,4 @@
-import Geocoder from './geocoder';
+import MapboxGeocoder as Geocoder from "@mapbox/mapbox-gl-geocoder";
 import template from 'lodash.template';
 import isEqual from 'lodash.isequal';
 import extent from 'turf-extent';
